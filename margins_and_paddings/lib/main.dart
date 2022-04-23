@@ -72,7 +72,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.all(Radius.circular(30))),
+                          borderRadius: BorderRadius.all(Radius.circular(30))
+                      ),
                       hintText: "Email",
                       contentPadding: EdgeInsets.only(left: 30),
                       fillColor: Color.fromARGB(84, 100, 117, 135),
@@ -98,6 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   alignment: Alignment.centerRight,
                   width: MediaQuery.of(context).size.width * 0.85,
+                  padding: const EdgeInsets.only(left: 10),
                   child: const Text("Forgot password?"),
                 ),
                 Container(
